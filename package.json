@@ -1,0 +1,36 @@
+{
+  "name": "search-word-on-cambridge",
+  "version": "1.0.0",
+  "description": "Quickly search selected text on Cambridge Dictionary with a convenient tooltip.",
+  "main": "content.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser-extension",
+    "chrome-extension",
+    "firefox-extension",
+    "safari-extension",
+    "dictionary",
+    "cambridge",
+    "search",
+    "tooltip",
+    "text-selection",
+    "web-tool",
+    "productivity",
+    "language",
+    "definition"
+  ],
+  "author": "antaresjeet",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  }
+}
