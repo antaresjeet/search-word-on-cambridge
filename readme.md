@@ -8,7 +8,7 @@ The "Search by Selection On Cambridge" extension allows users to select text on 
 
 ## Buy me a coffee
 
-Hi, I'm Ranjit, a passionate web developer who loves creating innovative and useful tools.
+Hi, I'm Ranjit, a passionate developer who loves creating innovative and useful tools.
 
 Whether it's building extensions, developing new features, or optimizing existing code, I'm dedicated to delivering high-quality work.
 
@@ -44,20 +44,10 @@ If you appreciate my work and want to help me keep going, buying me a coffee is 
 1. Run the following command to create a ZIP file:
 
    ```sh
-   BROWSER=chrome node build.js
+   npm run build
    ```
 
-2. The `extension.zip` file will be created in the project directory.
-
-### For Firefox
-
-1. Run the following command to create an XPI file:
-
-   ```sh
-   BROWSER=firefox node build.js
-   ```
-
-2. The `extension.xpi` file will be created in the project directory.
+2. The `extension.zip` and `extension.xpi` files will be created in the project directory.
 
 ## Usage
 
