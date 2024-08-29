@@ -6,6 +6,18 @@ A browser extension that lets you quickly search selected text on Cambridge Dict
 
 The "Search by Selection On Cambridge" extension allows users to select text on any webpage and get a tooltip to search for the selected text directly on Cambridge Dictionary. This tool aims to enhance the browsing experience by providing quick access to definitions.
 
+## Buy me a coffee
+
+Hi, I'm Ranjit, a passionate web developer who loves creating innovative and useful tools.
+
+Whether it's building extensions, developing new features, or optimizing existing code, I'm dedicated to delivering high-quality work.
+
+Your support helps me continue developing and maintaining these projects, ensuring they stay useful and up-to-date.
+
+If you appreciate my work and want to help me keep going, buying me a coffee is a great way to show your support. Thank you! :coffee:
+
+<a href="https://www.buymeacoffee.com/antaresjeet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ## Features
 
 - **Tooltip**: Appears when text is selected, providing an option to search the selected text.
