@@ -1,6 +1,6 @@
 {
-  "manifest_version": 3,
-  "name": "Search by Selection On Cambridge",
+  "manifest_version": 2,
+  "name": "Search Word On Cambridge",
   "version": "1.0.1",
   "description": "Quickly search selected text on Cambridge Dictionary with a convenient tooltip.",
   "permissions": [
@@ -12,11 +12,6 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  },
-  "applications": {
-    "gecko": {
-      "id": "searchbyselectiononcambridge@extension"
-    }
   },
   "content_scripts": [
     {
