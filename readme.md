@@ -10,6 +10,7 @@ The "Search by Selection On Cambridge" extension allows users to select text on 
 
 - **Tooltip**: Appears when text is selected, providing an option to search the selected text.
 - **Quick Search**: Opens a new tab with the search results from Cambridge Dictionary.
+- **Cross-Browser Support**: Compatible with major browsers (Chrome, Firefox).
 
 ## Installation
 
@@ -18,6 +19,33 @@ The "Search by Selection On Cambridge" extension allows users to select text on 
 1. Go to `chrome://extensions/` in your Chrome browser.
 2. Enable **Developer mode** (toggle switch in the top right).
 3. Click **Load unpacked** and select the extension directory.
+
+### For Firefox
+
+1. Go to `about:debugging#/runtime/this-firefox` in your Firefox browser.
+2. Click **Load Temporary Add-on** and select the `manifest.json` file in the extension directory.
+
+## Build Steps
+
+### For Chrome
+
+1. Run the following command to create a ZIP file:
+
+   ```sh
+   BROWSER=chrome node build.js
+   ```
+
+2. The `extension.zip` file will be created in the project directory.
+
+### For Firefox
+
+1. Run the following command to create an XPI file:
+
+   ```sh
+   BROWSER=firefox node build.js
+   ```
+
+2. The `extension.xpi` file will be created in the project directory.
 
 ## Usage
 

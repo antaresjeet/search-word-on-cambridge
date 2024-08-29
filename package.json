@@ -1,9 +1,11 @@
 {
   "name": "search-word-on-cambridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly search selected text on Cambridge Dictionary with a convenient tooltip.",
-  "main": "content.js",
+  "main": "src/content.js",
   "scripts": {
+    "build": "node build.js",
+    "prebuild": "node versioning.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,5 +34,8 @@
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.9.0",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
   }
 }

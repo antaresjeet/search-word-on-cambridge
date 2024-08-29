@@ -30,6 +30,6 @@ module.exports = [
       'no-unused-vars': ['warn'],
       'no-undef': 'error',
     },
-    ignores: ['eslint.config.js', 'node_modules/*'],
+    ignores: ['eslint.config.js', 'build.js', 'node_modules/*'],
   },
 ];
