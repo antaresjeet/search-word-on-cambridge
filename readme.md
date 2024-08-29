@@ -16,7 +16,7 @@ Your support helps me continue developing and maintaining these projects, ensuri
 
 If you appreciate my work and want to help me keep going, buying me a coffee is a great way to show your support. Thank you! :coffee:
 
-<a href="https://www.buymeacoffee.com/antaresjeet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<a href="https://www.buymeacoffee.com/antaresjeet" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Features
 
