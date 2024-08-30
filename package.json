@@ -1,6 +1,6 @@
 {
   "name": "search-word-on-cambridge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quickly search selected text on Cambridge Dictionary with a convenient tooltip.",
   "main": "src/content.js",
   "scripts": {
