@@ -1,0 +1,82 @@
+.search-tooltip-cambridge-container {
+  --bg-color-checked: #414181;
+  --text-color-checked: #fff;
+  --bg-color-hover: #d6d6e5;
+  --box-shadow-color: #00005c;
+  margin: 10px;
+}
+.search-tooltip-cambridge-container .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.search-tooltip-cambridge-container .header .logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 12px;
+}
+.search-tooltip-cambridge-container .header .extension-name {
+  font-size: 19px;
+  width: 140px;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper:nth-child(2) {
+  margin-top: 10px;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper .main-label {
+  font-size: 13px;
+  margin-left: 8px;
+  color: grey;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label {
+  display: flex;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label input {
+  position: absolute;
+  left: -9999px;
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label input:checked + span {
+  background-color: var(--bg-color-checked);
+  color: var(--text-color-checked);
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label input:checked + span::before {
+  box-shadow: inset 0 0 0 0.4375em var(--box-shadow-color);
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label span {
+  display: flex;
+  align-items: center;
+  padding: 0.375em 0.75em;
+  border-radius: 99em;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  color: var(--bg-color-checked);
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label span:hover {
+  background-color: var(--bg-color-hover);
+}
+.search-tooltip-cambridge-container .cambridge-search-options-form .radio-wrapper label span::before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+  transition: box-shadow 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em var(--box-shadow-color);
+}

@@ -10,8 +10,10 @@ if (!fs.existsSync(distDir)) {
 
 // list of files to copy
 const filesToCopy = [
-  'src/content.js',
-  'src/styles.css',
+  'src/js/content.js',
+  'src/js/options.js',
+  'src/css/styles.css',
+  'src/interface/index.html',
   'src/icons/icon16.png',
   'src/icons/icon32.png',
   'src/icons/icon48.png',

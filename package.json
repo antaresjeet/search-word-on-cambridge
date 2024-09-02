@@ -1,6 +1,6 @@
 {
   "name": "search-word-on-cambridge",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Quickly search selected text on Cambridge Dictionary with a convenient tooltip.",
   "main": "src/content.js",
   "scripts": {
@@ -33,9 +33,12 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.9.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "archiver": "^7.0.1"
+    "archiver": "^7.0.1",
+    "sass": "^1.77.8"
   }
 }

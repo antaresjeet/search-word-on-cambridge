@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Word On Cambridge</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <div class="search-tooltip-cambridge-container">
+    <div class="header">
+      <img src="../icons/icon128.png" alt="Search Word On Cambridge" class="logo">
+      <h1 class="extension-name">Search Word On Cambridge</h1>
+    </div>
+    <form class="cambridge-search-options-form">
+      <div class="radio-wrapper">
+        <span class="main-label">Open Selected Word In</span>
+        <div class="options">
+          <label>
+            <input type="radio" name="window-type" value="popup">
+            <span>Popup</span>
+          </label>
+          <label>
+            <input type="radio" name="window-type" value="tab">
+            <span>New Tab</span>
+          </label>
+        </div>
+      </div>
+      <div class="radio-wrapper">
+        <span class="main-label">Display Tooltip as</span>
+        <div class="options">
+          <label>
+            <input type="radio" name="tooltip-type" value="text">
+            <span>Text</span>
+          </label>
+          <label>
+            <input type="radio" name="tooltip-type" value="logo">
+            <span>Logo</span>
+          </label>
+          <label>
+            <input type="radio" name="tooltip-type" value="logo-text">
+            <span>Logo With Text</span>
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="module" src="../js/options.js"></script>
+</body>
+
+</html>

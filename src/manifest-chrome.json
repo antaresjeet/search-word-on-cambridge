@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Search Word On Cambridge",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Quickly search selected text on Cambridge Dictionary with a convenient tooltip.",
   "permissions": [
-    "activeTab"
+    "storage"
   ],
   "author": "antaresjeet",
   "icons": {
@@ -13,16 +13,35 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
+  "action": {
+    "default_popup": "interface/index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/icon128.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
   "content_scripts": [
     {
       "matches": [
         "<all_urls>"
       ],
       "js": [
-        "content.js"
+        "js/content.js"
       ],
       "css": [
-        "styles.css"
+        "css/styles.css"
       ]
     }
   ]
