@@ -99,6 +99,9 @@ const createTooltip = () => {
     shadowRoot.appendChild(tooltip);
 
     // Append the container (with shadow root) to the document body
+    if (document.querySelector(`.${CONTAINER_CLASS_NAME}`)) {
+      removeTooltip();
+    }
     document.body.appendChild(container);
   });
 };
@@ -155,8 +158,8 @@ const onToolTipClick = (windowType) => {
 };
 
 const removeTooltip = () => {
-  const tooltip = document.querySelector(`.${CONTAINER_CLASS_NAME}`);
-  tooltip && tooltip.remove();
+  const tooltips = document.querySelectorAll(`.${CONTAINER_CLASS_NAME}`);
+  tooltips.forEach((tooltip) => tooltip.remove());
 };
 
 document.addEventListener('selectionchange', () => {
@@ -169,6 +172,10 @@ document.addEventListener('selectionchange', () => {
 });
 
 document.addEventListener('wheel', () => {
+  removeTooltip();
+});
+
+document.addEventListener('scroll', () => {
   removeTooltip();
 });
 
